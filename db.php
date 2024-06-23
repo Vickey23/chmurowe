@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "lista-zakupow-db.mysql.database.azure.com";
+$username = "adminuser";
+$password = "Haslo123";
 $dbname = "shopping_list";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
